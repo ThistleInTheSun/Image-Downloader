@@ -66,7 +66,10 @@ usage: image_downloader.py [-h] [--engine {Google,Bing,Baidu}]
                            keywords
 ```
 sample：
+
 ```bash
+pip install selenium==2.48.0
+
 python Image-Downloader/image_downloader.py \
 "office person" \
 --max-number 5000 \
