@@ -65,6 +65,14 @@ usage: image_downloader.py [-h] [--engine {Google,Bing,Baidu}]
                            [--proxy_socks5 PROXY_SOCKS5]
                            keywords
 ```
+sample：
+```bash
+python Image-Downloader/image_downloader.py \
+"office person" \
+--max-number 5000 \
+--output data_office_person \
+--driver chrome_headless
+```
 
 ## License
 
